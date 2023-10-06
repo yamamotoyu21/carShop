@@ -1,6 +1,7 @@
 "use client"
 
 import Image from '@/node_modules/next/image';
+import { relative } from 'path';
 import React from 'react'
 import CustomButton from './CustomButton';
 
@@ -13,8 +14,8 @@ const Hero = () => {
   return (
     <div className='hero'>
         <div className="flex-1 pt-36 padding-x">
-            <h1 className='hero_title'>
-                Find, book, or rent a car - quickly and easily!
+            <h1 className='hero_title'style={{ fontSize: '3rem' }}>
+                Find, book, or rent a car <br/>- quickly and easily!
             </h1>
             <p className='hero_subtitle'>
                 Stremline your car rental experience with our effortless booking process.
@@ -26,10 +27,9 @@ const Hero = () => {
             />
             <div className='hero_image-container'>
                 <div className='hero_image'>
-                    <Image src={"/components/hero.png"} alt="hero" fill={true} className="object-contai"/>
+                    <Image src="/hero.png" fill={true} alt="hero" className="object-contain"/>
                     
                     <div className='hero_image-overay' />
-                       
                 </div>
             </div>
         </div>
