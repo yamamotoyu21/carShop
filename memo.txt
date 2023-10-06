@@ -1,2 +1,7 @@
-10/4 25分まで
-https://www.youtube.com/watch?v=pUNSHPyVryU&list=PLGylhlHi0J0VjVNm9hGwJAKWmRCGzVw6q&index=3
+- 10/4 
+-- 25分まで
+-- Custom ButtonのHandleClickエレメントでエラーが出ているので対処する必要がある
+https://www.youtube.com/watch?v=pUNSHPyVryU&list=PLGylhlHi0J0VjVNmgit
+- 10/7
+-- 画像の位置がおかしいので修正する必要がある
+29分まで
